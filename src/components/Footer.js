@@ -6,13 +6,13 @@ import Col from 'react-bootstrap/col';
 function Footer() {
     return (
         <footer className="mt-5">
-            <Container fluid={true}>
+            <Container>
                 <Row className="border-top justify-content-between p-3">
                     <Col className="p-0" md={3} sm={2}>
-                        &copy; Ariq Daffa
+                        &copy;{(new Date().getFullYear())}
                 </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                        Made with love by Ariq Daffa
+                        Made with &hearts; and&nbsp;<a href="https://reactjs.org/">React</a>
                 </Col>
                 </Row>
             </Container>
