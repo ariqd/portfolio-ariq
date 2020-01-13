@@ -5,9 +5,9 @@ import Col from 'react-bootstrap/col';
 
 function Footer() {
     return (
-        <footer className="mt-5">
+        <footer className="mt-5 border-top">
             <Container>
-                <Row className="border-top justify-content-between p-3">
+                <Row className="justify-content-between p-3">
                     <Col className="p-0" md={3} sm={2}>
                         &copy;{(new Date().getFullYear())}
                 </Col>
