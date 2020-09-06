@@ -27,15 +27,15 @@ class App extends React.Component {
             ],
             home: {
                 title: "Hi, I'm Ariq",
-                subtitle: "Full Stack Web & Mobile Developer",
-                text: 'Check out my projects below!'
+                subtitle: "And this is my Portfolio",
+                text: 'check out my projects below!'
             },
             about: {
                 title: 'About Me',
                 subtitle: 'Ariq Daffa Athallah Putra'
             },
             contact: {
-                title: 'Lets Talk',
+                title: 'Lets Talk!',
             }
         }
     }
@@ -43,7 +43,7 @@ class App extends React.Component {
     render() {
         return (
             <Router>
-                <Container className="p-0 bg-light" fluid={true}>
+                <Container className="p-0 bg-light" fluid style={{ minHeight: '100vh' }}>
                     <Navbar className="border-bottom" bg="light" expand="lg">
                         <Container>
                             <Navbar.Brand>Ariq Daffa Athallah Putra</Navbar.Brand>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import workspace from '../assets/images/workspace.png';
-import {Jumbotron, Container, Row, Col} from 'react-bootstrap';
+import { Jumbotron, Container, Row, Col } from 'react-bootstrap';
 
 function Hero(props) {
 
@@ -14,8 +14,8 @@ function Hero(props) {
                         {props.subtitle && <h3 className="display-5 font-weight-light">{props.subtitle}</h3>}
                         {props.text && <h3 className="lead font-weight-light">{props.text}</h3>}
                     </Col>
-                    <Col md={4} sm={4} className="py-5">
-                        <img className="img-fluid " src={workspace} alt='workspace'/>
+                    <Col md={4} sm={4} className="py-5 d-none d-lg-block">
+                        <img className="img-fluid " src={workspace} alt='workspace' />
                     </Col>
                 </Row>
             </Container>

@@ -8,12 +8,12 @@ function Footer() {
         <footer className="mt-5 border-top">
             <Container>
                 <Row className="justify-content-between p-3">
-                    <Col className="p-0" md={3} sm={2}>
+                    <Col className="p-0" xs={6}>
                         &copy;{(new Date().getFullYear())}
-                </Col>
-                    <Col className="p-0 d-flex justify-content-end" md={3}>
-                        Made with &hearts; and&nbsp;<a href="https://reactjs.org/">React</a>
-                </Col>
+                    </Col>
+                    <Col className="p-0 d-flex justify-content-end" xs={6}>
+                        Made with&nbsp;<a href="https://reactjs.org/">React.js</a>
+                    </Col>
                 </Row>
             </Container>
         </footer >
